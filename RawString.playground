@@ -1,0 +1,18 @@
+import UIKit
+
+let hello = "안녕하세요 노준혁\"님\""
+let hello2 = #"안녕하세요 노준혁 "님""#
+print(hello)
+print(hello2)
+
+let math = "\\\\(A + B) + C \\\\"
+let math2 = #"\\(A + B) + C \\"#
+
+print(math)
+print(math2)
+
+var message = #"I'm "Apple Developer""#
+var message2 = ##""#Apple" "#Developer""##
+
+print(message)
+print(message2)
